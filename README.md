@@ -34,6 +34,7 @@ This Function increases the total supply and the balance of a specified address.
 
 ## Burn Function:
 This function decreases the total supply and the balance of a specified address, with a condition that the balance must be greater than or equal to the amount to be burned.
+
        function burn (address _address, uint _value) public 
     {
         if (balances[_address] >= _value)
